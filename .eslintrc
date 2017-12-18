@@ -1,0 +1,15 @@
+{
+  "root": true,
+  "extends": "airbnb",
+  "globals": {
+      "_": false
+  },
+  "env": {
+  },
+  "parser": "babel-eslint",
+  "rules": {
+      "import/prefer-default-export": false,
+      "no-shadow": 1,
+      "no-param-reassign": 0
+  }
+}
